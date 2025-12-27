@@ -1,0 +1,978 @@
+{
+  "sites": [
+    {
+      "id": "gurdwara-damdama-sahib",
+      "name": "Gurdwara Damdama Sahib",
+      "type": "gurdwara",
+      "location": {
+        "address": "Talwandi Sabo, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5204,
+          "lng": 75.9176
+        }
+      },
+      "description": "Historic gurdwara where Guru Gobind Singh stayed and completed the Guru Granth Sahib",
+      "history": "Gurdwara Damdama Sahib holds immense historical significance as it was here that Guru Gobind Singh, the tenth Sikh Guru, stayed for several months and completed the final compilation of the Guru Granth Sahib in 1705. The gurdwara is also known as the 'Guru ki Kashi' (Guru's Kashi) due to its importance as a center of learning.",
+      "timings": {
+        "weekdays": "4:00 AM - 10:00 PM",
+        "weekends": "4:00 AM - 10:00 PM",
+        "specialDays": "24 hours during Gurpurabs"
+      },
+      "facilities": ["Langar Hall", "Accommodation", "Parking", "Library", "Medical Aid"],
+      "contact": {
+        "phone": "+91-1882-123456"
+      },
+      "images": ["damdama-sahib-1.jpg", "damdama-sahib-2.jpg"]
+    },
+    {
+      "id": "temple-devi-talab-mandir",
+      "name": "Devi Talab Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Devi Talab Road, Jalandhar-Hoshiarpur Highway",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5365,
+          "lng": 75.9432
+        }
+      },
+      "description": "Ancient temple dedicated to Goddess Durga, situated beside a sacred pond",
+      "history": "Devi Talab Mandir is an ancient temple dedicated to Goddess Durga, believed to be over 200 years old. The temple is situated beside a sacred pond (talab) from which it derives its name. According to local legends, the pond has healing properties and devotees come from far and wide to take a holy dip.",
+      "timings": {
+        "weekdays": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "weekends": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "specialDays": "Extended hours during Navratri"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Shoe Stand", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-234567"
+      }
+    },
+    {
+      "id": "gurdwara-chhevin-patshahi",
+      "name": "Gurdwara Chhevin Patshahi",
+      "type": "gurdwara",
+      "location": {
+        "address": "Kiratpur Sahib Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5089,
+          "lng": 75.9456
+        }
+      },
+      "description": "Historic gurdwara associated with Guru Hargobind Sahib, the sixth Sikh Guru",
+      "history": "This gurdwara is associated with Guru Hargobind Sahib, the sixth Sikh Guru, who visited this place during his travels. The gurdwara was built to commemorate his visit and the spiritual discourse he held with the local sangat. It represents the Guru's message of both spiritual and temporal authority.",
+      "timings": {
+        "weekdays": "4:30 AM - 9:30 PM",
+        "weekends": "4:30 AM - 9:30 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Rest Rooms", "Shoe Stand"],
+      "contact": {
+        "phone": "+91-1882-345678"
+      }
+    },
+    {
+      "id": "temple-hanuman-mandir-main",
+      "name": "Hanuman Mandir (Main Bazaar)",
+      "type": "temple",
+      "location": {
+        "address": "Main Bazaar, Hoshiarpur City",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5238,
+          "lng": 75.9112
+        }
+      },
+      "description": "Popular Hanuman temple in the heart of Hoshiarpur city",
+      "history": "Located in the bustling Main Bazaar of Hoshiarpur, this Hanuman temple has been serving devotees for over 150 years. The temple is known for its beautiful idol of Lord Hanuman and is particularly crowded on Tuesdays and Saturdays. The temple has been renovated several times while maintaining its traditional architecture.",
+      "timings": {
+        "weekdays": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "weekends": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "specialDays": "Special aarti on Tuesdays and Saturdays"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Donation Box", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-456789"
+      }
+    },
+    {
+      "id": "gurdwara-guru-ka-lahore",
+      "name": "Gurdwara Guru Ka Lahore",
+      "type": "gurdwara",
+      "location": {
+        "address": "Guru Ka Lahore Village, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.4876,
+          "lng": 75.8934
+        }
+      },
+      "description": "Historic gurdwara in the village named after Guru Nanak Dev Ji",
+      "history": "The village of Guru Ka Lahore was named after Guru Nanak Dev Ji, who visited this place during his travels. The gurdwara was built to commemorate his visit and the spiritual teachings he imparted to the local community. The village name itself reflects the deep reverence the locals had for the Guru.",
+      "timings": {
+        "weekdays": "4:00 AM - 9:00 PM",
+        "weekends": "4:00 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Accommodation", "Parking", "Community Hall"],
+      "contact": {
+        "phone": "+91-1882-567890"
+      }
+    },
+    {
+      "id": "temple-shiv-mandir-tanda",
+      "name": "Shiv Mandir Tanda",
+      "type": "temple",
+      "location": {
+        "address": "Tanda, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5567,
+          "lng": 75.8901
+        }
+      },
+      "description": "Ancient Shiva temple known for its beautiful architecture and peaceful environment",
+      "history": "This ancient Shiva temple in Tanda is believed to be over 300 years old. The temple is known for its intricate stone carvings and peaceful environment. Local legends suggest that the Shivling was discovered by a farmer while plowing his field, and the temple was built around it. The temple attracts devotees especially during Maha Shivratri.",
+      "timings": {
+        "weekdays": "5:00 AM - 12:00 PM, 5:00 PM - 9:00 PM",
+        "weekends": "5:00 AM - 12:00 PM, 5:00 PM - 9:00 PM",
+        "specialDays": "24 hours during Maha Shivratri"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Shoe Stand", "Drinking Water", "Rest Area"],
+      "contact": {
+        "phone": "+91-1882-678901"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-mukerian",
+      "name": "Gurdwara Sahib Mukerian",
+      "type": "gurdwara",
+      "location": {
+        "address": "Mukerian, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.9567,
+          "lng": 75.6123
+        }
+      },
+      "description": "Historic gurdwara serving the Mukerian community with rich Sikh heritage",
+      "history": "Gurdwara Sahib Mukerian has been serving the local Sikh community for over 200 years. The gurdwara was established by the local sangat and has been a center of spiritual and community activities. It has played a significant role in preserving Sikh traditions and providing religious education to the youth.",
+      "timings": {
+        "weekdays": "4:30 AM - 9:00 PM",
+        "weekends": "4:30 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Library", "Community Hall", "Medical Aid"],
+      "contact": {
+        "phone": "+91-1882-789012"
+      }
+    },
+    {
+      "id": "temple-durga-mata-mandir",
+      "name": "Durga Mata Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Civil Lines, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5298,
+          "lng": 75.9087
+        }
+      },
+      "description": "Beautiful temple dedicated to Goddess Durga with modern amenities",
+      "history": "Built in the 1960s, this modern temple dedicated to Goddess Durga has become a focal point for Hindu devotees in Hoshiarpur. The temple is known for its grand Navratri celebrations and beautiful architecture that blends traditional and contemporary styles. The temple committee actively participates in community welfare activities.",
+      "timings": {
+        "weekdays": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "weekends": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "specialDays": "Extended hours during Navratri and Durga Puja"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Community Hall", "Drinking Water", "Shoe Stand"],
+      "contact": {
+        "phone": "+91-1882-890123",
+        "email": "durgamandir.hsp@gmail.com"
+      }
+    },
+    {
+      "id": "gurdwara-nanaksar-sahib",
+      "name": "Gurdwara Nanaksar Sahib",
+      "type": "gurdwara",
+      "location": {
+        "address": "Nanaksar Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5156,
+          "lng": 75.9234
+        }
+      },
+      "description": "Peaceful gurdwara known for its spiritual atmosphere and community service",
+      "history": "Gurdwara Nanaksar Sahib is part of the Nanaksar movement, which emphasizes meditation, selfless service, and spiritual discipline. The gurdwara was established in the 1970s and has since become known for its peaceful atmosphere and dedication to community service. It follows the traditional Sikh practices with emphasis on naam simran and seva.",
+      "timings": {
+        "weekdays": "4:00 AM - 9:30 PM",
+        "weekends": "4:00 AM - 9:30 PM"
+      },
+      "facilities": ["Langar Hall", "Accommodation", "Parking", "Library", "Meditation Hall"],
+      "contact": {
+        "phone": "+91-1882-901234"
+      }
+    },
+    {
+      "id": "temple-ram-mandir-old-city",
+      "name": "Ram Mandir (Old City)",
+      "type": "temple",
+      "location": {
+        "address": "Old City, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5201,
+          "lng": 75.9098
+        }
+      },
+      "description": "Historic Ram temple in the old city area with traditional architecture",
+      "history": "This historic Ram temple in the old city of Hoshiarpur dates back to the 18th century. The temple showcases traditional North Indian temple architecture with beautiful stone carvings and intricate designs. It has been a center of devotion for Lord Rama and attracts devotees especially during Ram Navami and other Hindu festivals.",
+      "timings": {
+        "weekdays": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "weekends": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "specialDays": "Special celebrations during Ram Navami"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Shoe Stand", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-012345"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-garhshankar",
+      "name": "Gurdwara Sahib Garhshankar",
+      "type": "gurdwara",
+      "location": {
+        "address": "Garhshankar, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.2167,
+          "lng": 76.1500
+        }
+      },
+      "description": "Important gurdwara in Garhshankar town serving the local Sikh community",
+      "history": "Gurdwara Sahib Garhshankar is one of the prominent gurdwaras in the Garhshankar area of Hoshiarpur district. The gurdwara has been serving the local Sikh community for generations and is known for its active participation in community welfare programs. It serves as a spiritual and cultural center for the region.",
+      "timings": {
+        "weekdays": "4:30 AM - 9:00 PM",
+        "weekends": "4:30 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Community Hall", "Rest Rooms"],
+      "contact": {
+        "phone": "+91-1882-123450"
+      }
+    },
+    {
+      "id": "temple-krishna-mandir",
+      "name": "Krishna Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Model Town, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5334,
+          "lng": 75.9145
+        }
+      },
+      "description": "Modern Krishna temple known for its beautiful deity and devotional activities",
+      "history": "Built in the 1980s, this Krishna temple in Model Town has become a popular destination for devotees of Lord Krishna. The temple is known for its beautiful marble deity of Krishna and regular devotional activities including bhajans and kirtans. The temple celebrates all major Krishna festivals with great enthusiasm.",
+      "timings": {
+        "weekdays": "5:30 AM - 12:00 PM, 5:00 PM - 9:30 PM",
+        "weekends": "5:30 AM - 12:00 PM, 5:00 PM - 9:30 PM",
+        "specialDays": "Special celebrations during Janmashtami and Holi"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Community Hall", "Drinking Water", "Library"],
+      "contact": {
+        "phone": "+91-1882-234501",
+        "email": "krishnamandir.hsp@gmail.com"
+      }
+    },
+    {
+      "id": "gurdwara-singh-sabha",
+      "name": "Gurdwara Singh Sabha",
+      "type": "gurdwara",
+      "location": {
+        "address": "Singh Sabha Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5267,
+          "lng": 75.9189
+        }
+      },
+      "description": "Historic Singh Sabha gurdwara promoting Sikh education and reform",
+      "history": "Gurdwara Singh Sabha was established during the Singh Sabha movement in the late 19th century. The gurdwara has played a crucial role in promoting Sikh education, religious reform, and cultural preservation. It has been instrumental in establishing schools and promoting literacy among the Sikh community in Hoshiarpur.",
+      "timings": {
+        "weekdays": "4:00 AM - 9:30 PM",
+        "weekends": "4:00 AM - 9:30 PM"
+      },
+      "facilities": ["Langar Hall", "Library", "School", "Parking", "Community Hall"],
+      "contact": {
+        "phone": "+91-1882-345012"
+      }
+    },
+    {
+      "id": "temple-kali-mata-mandir",
+      "name": "Kali Mata Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Kali Mata Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5189,
+          "lng": 75.9234
+        }
+      },
+      "description": "Powerful temple dedicated to Goddess Kali, known for its spiritual energy",
+      "history": "This temple dedicated to Goddess Kali is known for its powerful spiritual energy and is visited by devotees seeking the goddess's blessings for protection and strength. The temple has been serving devotees for over 100 years and is particularly crowded during Navratri and Kali Puja. The temple maintains traditional rituals and practices.",
+      "timings": {
+        "weekdays": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "weekends": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "specialDays": "Special pujas during Navratri and Kali Puja"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Shoe Stand", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-456123"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-una-road",
+      "name": "Gurdwara Sahib Una Road",
+      "type": "gurdwara",
+      "location": {
+        "address": "Una Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5423,
+          "lng": 75.9067
+        }
+      },
+      "description": "Community gurdwara serving devotees along the Una Road corridor",
+      "history": "Located on the busy Una Road, this gurdwara serves as an important spiritual center for the Sikh community in the area. Built in the 1960s, it has grown to become a significant place of worship and community gathering. The gurdwara is known for its regular religious programs and community service activities.",
+      "timings": {
+        "weekdays": "4:30 AM - 9:00 PM",
+        "weekends": "4:30 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Rest Rooms", "Community Hall"],
+      "contact": {
+        "phone": "+91-1882-567234"
+      }
+    },
+    {
+      "id": "temple-ganesh-mandir-railway-road",
+      "name": "Ganesh Mandir (Railway Road)",
+      "type": "temple",
+      "location": {
+        "address": "Railway Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5312,
+          "lng": 75.9156
+        }
+      },
+      "description": "Popular Ganesh temple near the railway station, known for removing obstacles",
+      "history": "This Ganesh temple near the railway station has been blessing devotees for over 80 years. The temple is particularly popular among travelers and locals who seek Lord Ganesh's blessings for removing obstacles and ensuring successful journeys. The temple sees a significant increase in devotees during Ganesh Chaturthi.",
+      "timings": {
+        "weekdays": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "weekends": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "specialDays": "Special celebrations during Ganesh Chaturthi"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Shoe Stand", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-678345"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-mahilpur",
+      "name": "Gurdwara Sahib Mahilpur",
+      "type": "gurdwara",
+      "location": {
+        "address": "Mahilpur, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.4500,
+          "lng": 75.9833
+        }
+      },
+      "description": "Historic gurdwara in Mahilpur town with rich Sikh heritage",
+      "history": "Gurdwara Sahib Mahilpur is a historic gurdwara that has been serving the Sikh community in Mahilpur for over 150 years. The gurdwara is known for its beautiful architecture and peaceful environment. It has been a center of spiritual learning and community service, playing an important role in preserving Sikh traditions in the region.",
+      "timings": {
+        "weekdays": "4:00 AM - 9:30 PM",
+        "weekends": "4:00 AM - 9:30 PM"
+      },
+      "facilities": ["Langar Hall", "Accommodation", "Parking", "Library", "Community Hall"],
+      "contact": {
+        "phone": "+91-1882-789456"
+      }
+    },
+    {
+      "id": "temple-radha-krishna-mandir",
+      "name": "Radha Krishna Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Subhash Nagar, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5278,
+          "lng": 75.9201
+        }
+      },
+      "description": "Beautiful temple dedicated to Radha Krishna with regular devotional programs",
+      "history": "This beautiful temple dedicated to Radha Krishna was built in the 1990s and has become a center of devotion for Krishna bhakts in Hoshiarpur. The temple is known for its regular bhajan-kirtan programs and celebrates all Krishna festivals with great devotion. The temple also runs educational programs for children.",
+      "timings": {
+        "weekdays": "5:30 AM - 12:00 PM, 5:00 PM - 9:30 PM",
+        "weekends": "5:30 AM - 12:00 PM, 5:00 PM - 9:30 PM",
+        "specialDays": "Special programs during Janmashtami and Radhashtami"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Community Hall", "Library", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-890567",
+        "email": "radhakrishna.hsp@gmail.com"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-dasuya",
+      "name": "Gurdwara Sahib Dasuya",
+      "type": "gurdwara",
+      "location": {
+        "address": "Dasuya, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.8167,
+          "lng": 75.6500
+        }
+      },
+      "description": "Important gurdwara in Dasuya serving the local Sikh community",
+      "history": "Gurdwara Sahib Dasuya is one of the important gurdwaras in the Dasuya area of Hoshiarpur district. The gurdwara has been serving the local Sikh community for many generations and is known for its active participation in religious and social activities. It serves as a spiritual anchor for the Sikh population in the region.",
+      "timings": {
+        "weekdays": "4:30 AM - 9:00 PM",
+        "weekends": "4:30 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Community Hall", "Rest Rooms", "Medical Aid"],
+      "contact": {
+        "phone": "+91-1882-901678"
+      }
+    },
+    {
+      "id": "temple-shani-dev-mandir",
+      "name": "Shani Dev Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Shani Dev Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5145,
+          "lng": 75.9278
+        }
+      },
+      "description": "Temple dedicated to Lord Shani, visited by devotees seeking relief from hardships",
+      "history": "This temple dedicated to Lord Shani (Saturn) is visited by devotees seeking relief from the malefic effects of Saturn and other hardships. Built in the 1970s, the temple has gained popularity among people from all walks of life. The temple is particularly crowded on Saturdays and during Shani Amavasya.",
+      "timings": {
+        "weekdays": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "weekends": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "specialDays": "Special prayers on Saturdays and Shani Amavasya"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Shoe Stand", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-012789"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-balachaur",
+      "name": "Gurdwara Sahib Balachaur",
+      "type": "gurdwara",
+      "location": {
+        "address": "Balachaur, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.1833,
+          "lng": 76.3000
+        }
+      },
+      "description": "Historic gurdwara in Balachaur with strong community connections",
+      "history": "Gurdwara Sahib Balachaur has been a cornerstone of the Sikh community in Balachaur for over 200 years. The gurdwara has witnessed many historical events and has been a center of spiritual and social activities. It continues to serve the community with dedication and maintains strong connections with Sikh traditions.",
+      "timings": {
+        "weekdays": "4:00 AM - 9:30 PM",
+        "weekends": "4:00 AM - 9:30 PM"
+      },
+      "facilities": ["Langar Hall", "Accommodation", "Parking", "Library", "Community Hall"],
+      "contact": {
+        "phone": "+91-1882-123890"
+      }
+    },
+    {
+      "id": "temple-lakshmi-narayan-mandir",
+      "name": "Lakshmi Narayan Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Lakshmi Narayan Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5223,
+          "lng": 75.9167
+        }
+      },
+      "description": "Elegant temple dedicated to Lord Vishnu and Goddess Lakshmi",
+      "history": "This elegant temple dedicated to Lord Vishnu and Goddess Lakshmi was built in the 1950s and represents the devotion of the local Hindu community. The temple is known for its beautiful architecture and peaceful atmosphere. It celebrates all major Vaishnavite festivals and is particularly popular during Diwali and Ekadashi.",
+      "timings": {
+        "weekdays": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "weekends": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "specialDays": "Special celebrations during Diwali and Ekadashi"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Community Hall", "Drinking Water", "Library"],
+      "contact": {
+        "phone": "+91-1882-234901",
+        "email": "laxminarayan.hsp@gmail.com"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-hariana",
+      "name": "Gurdwara Sahib Hariana",
+      "type": "gurdwara",
+      "location": {
+        "address": "Hariana, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.6000,
+          "lng": 75.8500
+        }
+      },
+      "description": "Rural gurdwara serving the farming community in Hariana village",
+      "history": "Gurdwara Sahib Hariana serves the predominantly farming community in Hariana village. The gurdwara has been a source of spiritual strength for the rural Sikh population and has played an important role in community development. It organizes various programs for farmers and rural development.",
+      "timings": {
+        "weekdays": "4:30 AM - 9:00 PM",
+        "weekends": "4:30 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Community Hall", "Rest Rooms"],
+      "contact": {
+        "phone": "+91-1882-345012"
+      }
+    },
+    {
+      "id": "temple-santoshi-mata-mandir",
+      "name": "Santoshi Mata Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Santoshi Mata Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5167,
+          "lng": 75.9289
+        }
+      },
+      "description": "Popular temple dedicated to Santoshi Mata, known for fulfilling devotees' wishes",
+      "history": "This temple dedicated to Santoshi Mata has gained immense popularity since its establishment in the 1980s. The goddess is believed to fulfill the wishes of her devotees, especially women who pray for the well-being of their families. The temple is particularly crowded on Fridays and during the Santoshi Mata vrat period.",
+      "timings": {
+        "weekdays": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "weekends": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "specialDays": "Special prayers on Fridays"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Shoe Stand", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-456234"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-bajwara",
+      "name": "Gurdwara Sahib Bajwara",
+      "type": "gurdwara",
+      "location": {
+        "address": "Bajwara, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.4167,
+          "lng": 75.8833
+        }
+      },
+      "description": "Community gurdwara in Bajwara village with strong local traditions",
+      "history": "Gurdwara Sahib Bajwara has been serving the Sikh community in Bajwara village for many generations. The gurdwara is known for maintaining strong local traditions and customs while adhering to Sikh principles. It serves as a center for religious education and community gatherings in the village.",
+      "timings": {
+        "weekdays": "4:00 AM - 9:00 PM",
+        "weekends": "4:00 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Community Hall", "Rest Rooms"],
+      "contact": {
+        "phone": "+91-1882-567345"
+      }
+    },
+    {
+      "id": "temple-jagannath-mandir",
+      "name": "Jagannath Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Jagannath Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5234,
+          "lng": 75.9123
+        }
+      },
+      "description": "Temple dedicated to Lord Jagannath with traditional Odishan architecture",
+      "history": "This temple dedicated to Lord Jagannath was built by devotees from Odisha who settled in Hoshiarpur. The temple follows traditional Odishan architectural style and customs. It celebrates the famous Rath Yatra festival annually, which attracts devotees from across the region. The temple maintains strong connections with the Jagannath temple in Puri.",
+      "timings": {
+        "weekdays": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "weekends": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "specialDays": "Grand celebration during Rath Yatra"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Community Hall", "Drinking Water", "Library"],
+      "contact": {
+        "phone": "+91-1882-678456",
+        "email": "jagannath.hsp@gmail.com"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-sham-churasi",
+      "name": "Gurdwara Sahib Sham Churasi",
+      "type": "gurdwara",
+      "location": {
+        "address": "Sham Churasi, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.3500,
+          "lng": 76.0000
+        }
+      },
+      "description": "Historic gurdwara in Sham Churasi with ancient Sikh connections",
+      "history": "Gurdwara Sahib Sham Churasi is a historic gurdwara with ancient connections to Sikh history. The gurdwara has been serving the local community for centuries and is known for its spiritual atmosphere and traditional practices. It has been a center of learning and devotion for the Sikh community in the region.",
+      "timings": {
+        "weekdays": "4:00 AM - 9:30 PM",
+        "weekends": "4:00 AM - 9:30 PM"
+      },
+      "facilities": ["Langar Hall", "Accommodation", "Parking", "Library", "Community Hall"],
+      "contact": {
+        "phone": "+91-1882-789567"
+      }
+    },
+    {
+      "id": "temple-mata-chintpurni-mandir",
+      "name": "Mata Chintpurni Mandir (Branch)",
+      "type": "temple",
+      "location": {
+        "address": "Chintpurni Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5189,
+          "lng": 75.9345
+        }
+      },
+      "description": "Branch temple of the famous Chintpurni Devi, known for removing worries",
+      "history": "This branch temple of the famous Chintpurni Devi was established to serve devotees who cannot travel to the main temple in Una district. The temple is dedicated to Mata Chintpurni, who is believed to remove all worries and troubles of her devotees. The temple follows the same rituals and traditions as the main shrine.",
+      "timings": {
+        "weekdays": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "weekends": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "specialDays": "Special prayers during Navratri"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Shoe Stand", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-890678"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-hajipur",
+      "name": "Gurdwara Sahib Hajipur",
+      "type": "gurdwara",
+      "location": {
+        "address": "Hajipur, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5500,
+          "lng": 75.8000
+        }
+      },
+      "description": "Village gurdwara serving the Sikh community in Hajipur",
+      "history": "Gurdwara Sahib Hajipur serves the Sikh community in Hajipur village and surrounding areas. The gurdwara has been a pillar of the community for many decades, providing spiritual guidance and community services. It plays an important role in preserving Sikh culture and traditions in the rural areas.",
+      "timings": {
+        "weekdays": "4:30 AM - 9:00 PM",
+        "weekends": "4:30 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Community Hall", "Rest Rooms"],
+      "contact": {
+        "phone": "+91-1882-901789"
+      }
+    },
+    {
+      "id": "temple-saraswati-mandir",
+      "name": "Saraswati Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Saraswati Vihar, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5312,
+          "lng": 75.9234
+        }
+      },
+      "description": "Temple dedicated to Goddess Saraswati, popular among students and scholars",
+      "history": "This temple dedicated to Goddess Saraswati, the goddess of knowledge and wisdom, is particularly popular among students and scholars. Built in the 1970s, the temple has become a center of learning and education. Many students visit the temple to seek blessings before examinations and important academic events.",
+      "timings": {
+        "weekdays": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "weekends": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "specialDays": "Special prayers during Basant Panchami"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Library", "Study Hall", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-012890",
+        "email": "saraswati.hsp@gmail.com"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-mehatpur",
+      "name": "Gurdwara Sahib Mehatpur",
+      "type": "gurdwara",
+      "location": {
+        "address": "Mehatpur, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.7000,
+          "lng": 75.7500
+        }
+      },
+      "description": "Historic gurdwara in Mehatpur with rich Sikh heritage",
+      "history": "Gurdwara Sahib Mehatpur is a historic gurdwara that has been serving the Sikh community in Mehatpur for over 150 years. The gurdwara is known for its beautiful architecture and peaceful environment. It has been a center of spiritual learning and community service, maintaining strong Sikh traditions and values.",
+      "timings": {
+        "weekdays": "4:00 AM - 9:30 PM",
+        "weekends": "4:00 AM - 9:30 PM"
+      },
+      "facilities": ["Langar Hall", "Accommodation", "Parking", "Library", "Community Hall"],
+      "contact": {
+        "phone": "+91-1882-123901"
+      }
+    },
+    {
+      "id": "temple-baba-balak-nath-mandir",
+      "name": "Baba Balak Nath Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Balak Nath Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5145,
+          "lng": 75.9356
+        }
+      },
+      "description": "Temple dedicated to Baba Balak Nath, popular among devotees seeking protection",
+      "history": "This temple dedicated to Baba Balak Nath, a revered saint in North India, attracts devotees seeking protection and blessings. The temple was established in the 1960s and has since become a popular pilgrimage site. Baba Balak Nath is particularly revered by people seeking protection from evil forces and difficulties.",
+      "timings": {
+        "weekdays": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "weekends": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "specialDays": "Special celebrations during Baisakhi"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Shoe Stand", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-234012"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-talwara",
+      "name": "Gurdwara Sahib Talwara",
+      "type": "gurdwara",
+      "location": {
+        "address": "Talwara, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.9333,
+          "lng": 75.8833
+        }
+      },
+      "description": "Important gurdwara in Talwara town serving the local community",
+      "history": "Gurdwara Sahib Talwara is an important gurdwara in Talwara town that has been serving the local Sikh community for many generations. The gurdwara is known for its active participation in community welfare and religious activities. It serves as a spiritual center for the region and maintains strong connections with Sikh traditions.",
+      "timings": {
+        "weekdays": "4:30 AM - 9:00 PM",
+        "weekends": "4:30 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Community Hall", "Rest Rooms", "Medical Aid"],
+      "contact": {
+        "phone": "+91-1882-345123"
+      }
+    },
+    {
+      "id": "temple-vishnu-mandir",
+      "name": "Vishnu Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Vishnu Nagar, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5267,
+          "lng": 75.9178
+        }
+      },
+      "description": "Traditional temple dedicated to Lord Vishnu with ancient architecture",
+      "history": "This traditional temple dedicated to Lord Vishnu showcases ancient North Indian temple architecture. Built in the early 20th century, the temple has been a center of Vaishnavite worship in Hoshiarpur. The temple is known for its beautiful stone carvings and peaceful atmosphere, attracting devotees seeking spiritual solace.",
+      "timings": {
+        "weekdays": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "weekends": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "specialDays": "Special celebrations during Vaikuntha Ekadashi"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Community Hall", "Drinking Water", "Library"],
+      "contact": {
+        "phone": "+91-1882-456234",
+        "email": "vishnu.hsp@gmail.com"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-pandori-nijjaran",
+      "name": "Gurdwara Sahib Pandori Nijjaran",
+      "type": "gurdwara",
+      "location": {
+        "address": "Pandori Nijjaran, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.4833,
+          "lng": 75.9167
+        }
+      },
+      "description": "Rural gurdwara serving the farming community in Pandori Nijjaran",
+      "history": "Gurdwara Sahib Pandori Nijjaran serves the predominantly farming community in the village. The gurdwara has been a source of spiritual strength for the rural Sikh population and has played an important role in community development. It organizes various programs for farmers and promotes agricultural awareness along with spiritual teachings.",
+      "timings": {
+        "weekdays": "4:00 AM - 9:00 PM",
+        "weekends": "4:00 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Community Hall", "Rest Rooms"],
+      "contact": {
+        "phone": "+91-1882-567456"
+      }
+    },
+    {
+      "id": "temple-arya-samaj-mandir",
+      "name": "Arya Samaj Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Arya Samaj Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5223,
+          "lng": 75.9145
+        }
+      },
+      "description": "Arya Samaj temple promoting Vedic principles and social reform",
+      "history": "The Arya Samaj Mandir in Hoshiarpur was established as part of the Arya Samaj movement founded by Swami Dayanand Saraswati. The temple promotes Vedic principles, social reform, and education. It has been instrumental in promoting women's education, opposing social evils, and conducting Vedic marriages and ceremonies in the region.",
+      "timings": {
+        "weekdays": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "weekends": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "specialDays": "Special programs during Diwali and Holi"
+      },
+      "facilities": ["Prayer Hall", "Parking", "Library", "Community Hall", "Educational Center"],
+      "contact": {
+        "phone": "+91-1882-678567",
+        "email": "aryasamaj.hsp@gmail.com"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-boothgarh",
+      "name": "Gurdwara Sahib Boothgarh",
+      "type": "gurdwara",
+      "location": {
+        "address": "Boothgarh, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.6167,
+          "lng": 75.8167
+        }
+      },
+      "description": "Community gurdwara in Boothgarh with strong local traditions",
+      "history": "Gurdwara Sahib Boothgarh has been serving the Sikh community in Boothgarh village for many generations. The gurdwara is known for maintaining strong local traditions while adhering to Sikh principles. It serves as a center for religious education and community gatherings, playing a vital role in preserving Sikh culture in the village.",
+      "timings": {
+        "weekdays": "4:30 AM - 9:00 PM",
+        "weekends": "4:30 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Community Hall", "Rest Rooms"],
+      "contact": {
+        "phone": "+91-1882-789678"
+      }
+    },
+    {
+      "id": "temple-mata-vaishno-devi-mandir",
+      "name": "Mata Vaishno Devi Mandir (Branch)",
+      "type": "temple",
+      "location": {
+        "address": "Vaishno Devi Road, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5178,
+          "lng": 75.9367
+        }
+      },
+      "description": "Branch temple of Mata Vaishno Devi, serving local devotees",
+      "history": "This branch temple of Mata Vaishno Devi was established to serve devotees who cannot undertake the journey to the main shrine in Jammu. The temple follows the same traditions and rituals as the main temple and attracts thousands of devotees, especially during Navratri. The temple provides a spiritual experience similar to the original shrine.",
+      "timings": {
+        "weekdays": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "weekends": "5:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
+        "specialDays": "Special celebrations during Navratri"
+      },
+      "facilities": ["Prasad Counter", "Parking", "Shoe Stand", "Drinking Water", "Rest Area"],
+      "contact": {
+        "phone": "+91-1882-890789"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-adampur",
+      "name": "Gurdwara Sahib Adampur",
+      "type": "gurdwara",
+      "location": {
+        "address": "Adampur, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.4333,
+          "lng": 75.7167
+        }
+      },
+      "description": "Historic gurdwara in Adampur with strong community connections",
+      "history": "Gurdwara Sahib Adampur has been a cornerstone of the Sikh community in Adampur for over 100 years. The gurdwara has witnessed many historical events and has been a center of spiritual and social activities. It continues to serve the community with dedication and maintains strong connections with Sikh traditions and values.",
+      "timings": {
+        "weekdays": "4:00 AM - 9:30 PM",
+        "weekends": "4:00 AM - 9:30 PM"
+      },
+      "facilities": ["Langar Hall", "Accommodation", "Parking", "Library", "Community Hall"],
+      "contact": {
+        "phone": "+91-1882-901890"
+      }
+    },
+    {
+      "id": "temple-gayatri-mandir",
+      "name": "Gayatri Mandir",
+      "type": "temple",
+      "location": {
+        "address": "Gayatri Nagar, Hoshiarpur",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5289,
+          "lng": 75.9212
+        }
+      },
+      "description": "Temple dedicated to Goddess Gayatri, promoting spiritual knowledge and wisdom",
+      "history": "This temple dedicated to Goddess Gayatri was built to promote spiritual knowledge and wisdom through the recitation of the Gayatri Mantra. Established in the 1980s, the temple has become a center for spiritual learning and meditation. It conducts regular classes on Vedic knowledge and promotes the understanding of ancient Indian scriptures.",
+      "timings": {
+        "weekdays": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "weekends": "5:30 AM - 12:00 PM, 4:30 PM - 9:30 PM",
+        "specialDays": "Special programs during Gayatri Jayanti"
+      },
+      "facilities": ["Prayer Hall", "Parking", "Library", "Meditation Hall", "Drinking Water"],
+      "contact": {
+        "phone": "+91-1882-012901",
+        "email": "gayatri.hsp@gmail.com"
+      }
+    },
+    {
+      "id": "gurdwara-sahib-urmar-tanda",
+      "name": "Gurdwara Sahib Urmar Tanda",
+      "type": "gurdwara",
+      "location": {
+        "address": "Urmar Tanda, Hoshiarpur District",
+        "city": "Hoshiarpur",
+        "coordinates": {
+          "lat": 31.5833,
+          "lng": 75.8500
+        }
+      },
+      "description": "Village gurdwara serving the Sikh community in Urmar Tanda",
+      "history": "Gurdwara Sahib Urmar Tanda serves the Sikh community in Urmar Tanda village and surrounding areas. The gurdwara has been a pillar of the community for many decades, providing spiritual guidance and community services. It plays an important role in preserving Sikh culture and traditions in the rural areas of Hoshiarpur district.",
+      "timings": {
+        "weekdays": "4:30 AM - 9:00 PM",
+        "weekends": "4:30 AM - 9:00 PM"
+      },
+      "facilities": ["Langar Hall", "Parking", "Community Hall", "Rest Rooms"],
+      "contact": {
+        "phone": "+91-1882-123012"
+      }
+    }
+  ]
+}
