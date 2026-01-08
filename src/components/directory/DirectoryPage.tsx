@@ -6,11 +6,14 @@ import { loadReligiousSitesDatabase, filterSites } from '@/utils/database';
 import DirectoryHero from './DirectoryHero';
 import SiteTable from './SiteTable';
 import FilterPanel from './FilterPanel';
+import SiteDetailCard from './SiteDetailCard';
 
 export default function DirectoryPage() {
   const [sites, setSites] = useState<ReligiousSite[]>([]);
   const [filteredSites, setFilteredSites] = useState<ReligiousSite[]>([]);
   const [loading, setLoading] = useState(true);
+  const [selectedSite, setSelectedSite] = useState<ReligiousSite | null>(null);
+  const [isDetailCardOpen, setIsDetailCardOpen] = useState(false);
   const [currentFilters, setCurrentFilters] = useState<SearchFilters>({
     query: '',
     type: 'all',
@@ -51,9 +54,14 @@ export default function DirectoryPage() {
 
   // Handle site selection for detail view
   const handleSiteClick = useCallback((site: ReligiousSite) => {
-    // For now, just log the selection. Later this will open a detail modal/card
-    console.log('Selected site:', site.name);
-    // TODO: Implement detail view modal/card in future tasks
+    setSelectedSite(site);
+    setIsDetailCardOpen(true);
+  }, []);
+
+  // Handle closing the detail card
+  const handleCloseDetailCard = useCallback(() => {
+    setIsDetailCardOpen(false);
+    setSelectedSite(null);
   }, []);
 
   const hasActiveFilters = currentFilters.type !== 'all' || 
@@ -148,6 +156,13 @@ export default function DirectoryPage() {
           </div>
         </div>
       </div>
+
+      {/* Site Detail Modal */}
+      <SiteDetailCard 
+        site={selectedSite}
+        isOpen={isDetailCardOpen}
+        onClose={handleCloseDetailCard}
+      />
     </div>
   );
 }
