@@ -24,12 +24,32 @@ const gurdwaraIcon = new L.Icon({
   shadowSize: [41, 41]
 });
 
+// Selected site icon (green)
+const selectedIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+  iconSize: [30, 49],
+  iconAnchor: [15, 49],
+  popupAnchor: [1, -40],
+  shadowSize: [49, 49]
+});
+
 interface MapClusterProps {
   sites: ReligiousSite[];
+  selectedSite?: ReligiousSite | null;
   onSiteSelect?: (site: ReligiousSite) => void;
 }
 
-export default function MapCluster({ sites, onSiteSelect }: MapClusterProps) {
+export default function MapCluster({ sites, selectedSite, onSiteSelect }: MapClusterProps) {
+  const getMarkerIcon = (site: ReligiousSite) => {
+    // Use selected icon if this is the selected site
+    if (selectedSite && site.id === selectedSite.id) {
+      return selectedIcon;
+    }
+    // Otherwise use type-based icon
+    return site.type === 'temple' ? templeIcon : gurdwaraIcon;
+  };
+
   return (
     <MarkerClusterGroup
       chunkedLoading
@@ -60,7 +80,7 @@ export default function MapCluster({ sites, onSiteSelect }: MapClusterProps) {
         <Marker
           key={site.id}
           position={[site.location.coordinates.lat, site.location.coordinates.lng]}
-          icon={site.type === 'temple' ? templeIcon : gurdwaraIcon}
+          icon={getMarkerIcon(site)}
           eventHandlers={{
             click: () => {
               if (onSiteSelect) {
@@ -71,7 +91,14 @@ export default function MapCluster({ sites, onSiteSelect }: MapClusterProps) {
         >
           <Popup maxWidth={300} minWidth={200}>
             <div className="p-3">
-              <h3 className="font-semibold text-lg mb-2 text-gray-800">{site.name}</h3>
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="font-semibold text-lg text-gray-800">{site.name}</h3>
+                {selectedSite && site.id === selectedSite.id && (
+                  <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                    Selected
+                  </span>
+                )}
+              </div>
               
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
@@ -127,6 +154,20 @@ export default function MapCluster({ sites, onSiteSelect }: MapClusterProps) {
                     <span className="font-medium">📞 Contact:</span> {site.contact.phone}
                   </p>
                 )}
+
+                <div className="pt-2 border-t border-gray-200">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      if (onSiteSelect) {
+                        onSiteSelect(site);
+                      }
+                    }}
+                    className="w-full px-3 py-2 bg-saffron-600 hover:bg-saffron-700 text-white text-sm font-medium rounded-md transition-colors duration-200"
+                  >
+                    View Full Details
+                  </button>
+                </div>
               </div>
             </div>
           </Popup>

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+import { Noto_Sans } from 'next/font/google';
 import './globals.css';
 
 const geistSans = localFont({
@@ -11,6 +12,14 @@ const geistMono = localFont({
   src: './fonts/GeistMonoVF.woff',
   variable: '--font-geist-mono',
   weight: '100 900',
+});
+
+// Punjabi font support (Noto Sans supports Gurmukhi script)
+const notoSans = Noto_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-noto-sans',
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -25,8 +34,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Preconnect to Google Fonts for Gurmukhi support */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${notoSans.variable} antialiased`}
       >
         {children}
       </body>

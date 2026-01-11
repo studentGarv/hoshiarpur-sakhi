@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { ReligiousSite } from '@/types';
+import { LoadingSpinner } from '@/components/ui';
 
 interface SiteTableProps {
   sites: ReligiousSite[];
@@ -54,7 +55,7 @@ export default function SiteTable({ sites, onSiteClick, loading = false }: SiteT
 
   const getSiteTypeColor = (type: 'temple' | 'gurdwara') => {
     return type === 'temple' 
-      ? 'bg-orange-100 text-orange-800 border-orange-200' 
+      ? 'bg-saffron-100 text-saffron-800 border-saffron-200' 
       : 'bg-blue-100 text-blue-800 border-blue-200';
   };
 
@@ -71,14 +72,7 @@ export default function SiteTable({ sites, onSiteClick, loading = false }: SiteT
   if (loading) {
     return (
       <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-8">
-        <div className="animate-pulse">
-          <div className="h-4 bg-gray-200 rounded w-1/4 mb-4"></div>
-          <div className="space-y-3">
-            {[...Array(5)].map((_, i) => (
-              <div key={i} className="h-4 bg-gray-200 rounded"></div>
-            ))}
-          </div>
-        </div>
+        <LoadingSpinner size="lg" text="Loading religious sites..." />
       </div>
     );
   }
@@ -188,7 +182,7 @@ export default function SiteTable({ sites, onSiteClick, loading = false }: SiteT
                       e.stopPropagation();
                       onSiteClick(site);
                     }}
-                    className="text-orange-600 hover:text-orange-900 transition-colors duration-150"
+                    className="text-saffron-600 hover:text-saffron-900 transition-colors duration-150"
                   >
                     View Details
                   </button>
@@ -240,7 +234,7 @@ export default function SiteTable({ sites, onSiteClick, loading = false }: SiteT
                     e.stopPropagation();
                     onSiteClick(site);
                   }}
-                  className="text-sm text-orange-600 hover:text-orange-900 font-medium transition-colors duration-150"
+                  className="text-sm text-saffron-600 hover:text-saffron-900 font-medium transition-colors duration-150"
                 >
                   View Details →
                 </button>

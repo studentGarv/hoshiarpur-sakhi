@@ -25,14 +25,24 @@ interface InteractiveMapProps {
 
 export default function InteractiveMap({ 
   sites, 
+  selectedSite,
   onSiteSelect, 
   className = '' 
 }: InteractiveMapProps) {
   const [isClient, setIsClient] = useState(false);
+  const [mapInstance, setMapInstance] = useState<L.Map | null>(null);
 
   useEffect(() => {
     setIsClient(true);
   }, []);
+
+  // Center map on selected site when it changes
+  useEffect(() => {
+    if (mapInstance && selectedSite) {
+      const { lat, lng } = selectedSite.location.coordinates;
+      mapInstance.setView([lat, lng], 15, { animate: true });
+    }
+  }, [mapInstance, selectedSite]);
 
   // Center map on Hoshiarpur district
   const center: [number, number] = [31.5204, 75.9118];
@@ -60,6 +70,7 @@ export default function InteractiveMap({
         scrollWheelZoom={true}
         doubleClickZoom={true}
         dragging={true}
+        ref={setMapInstance}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -68,7 +79,11 @@ export default function InteractiveMap({
           minZoom={8}
         />
         
-        <MapCluster sites={sites} onSiteSelect={onSiteSelect} />
+        <MapCluster 
+          sites={sites} 
+          selectedSite={selectedSite}
+          onSiteSelect={onSiteSelect} 
+        />
       </MapContainer>
       
       {/* Map Legend */}
@@ -83,6 +98,50 @@ export default function InteractiveMap({
             <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
             <span>Gurdwaras</span>
           </div>
+          {selectedSite && (
+            <div className="flex items-center gap-2 text-xs pt-1 border-t border-gray-200">
+              <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+              <span>Selected</span>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Map Controls */}
+      <div className="absolute bottom-4 left-4 bg-white rounded-lg shadow-lg p-2 z-10">
+        <div className="flex flex-col space-y-1">
+          <button
+            onClick={() => {
+              if (mapInstance) {
+                mapInstance.setView(center, zoom, { animate: true });
+              }
+            }}
+            className="px-3 py-1 text-xs bg-gray-100 hover:bg-gray-200 rounded transition-colors duration-200"
+            title="Reset view"
+          >
+            🏠 Reset
+          </button>
+          {selectedSite && (
+            <button
+              onClick={() => {
+                if (mapInstance && selectedSite) {
+                  const { lat, lng } = selectedSite.location.coordinates;
+                  mapInstance.setView([lat, lng], 15, { animate: true });
+                }
+              }}
+              className="px-3 py-1 text-xs bg-blue-100 hover:bg-blue-200 text-blue-800 rounded transition-colors duration-200"
+              title="Center on selected site"
+            >
+              📍 Center
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* Site Count Display */}
+      <div className="absolute top-4 left-4 bg-white rounded-lg shadow-lg px-3 py-2 z-10">
+        <div className="text-sm font-medium text-gray-700">
+          {sites.length} site{sites.length !== 1 ? 's' : ''} shown
         </div>
       </div>
     </div>

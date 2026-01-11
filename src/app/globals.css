@@ -20,7 +20,12 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), var(--font-noto-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Punjabi text support */
+.font-punjabi {
+  font-family: var(--font-noto-sans), 'Noto Sans', sans-serif;
 }
 
 @layer utilities {

@@ -75,7 +75,7 @@ export default function FilterPanel({ onFiltersChange, currentFilters, className
           <div className="flex items-center space-x-2">
             <h3 className="text-lg font-medium text-gray-900">Filters</h3>
             {activeFilterCount > 0 && (
-              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800">
+              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-saffron-100 text-saffron-800">
                 {activeFilterCount} active
               </span>
             )}
@@ -126,7 +126,7 @@ export default function FilterPanel({ onFiltersChange, currentFilters, className
                     value={option.value}
                     checked={currentFilters.type === option.value}
                     onChange={() => handleTypeChange(option.value as 'all' | 'temple' | 'gurdwara')}
-                    className="w-4 h-4 text-orange-600 border-gray-300 focus:ring-orange-500 focus:ring-2"
+                    className="w-4 h-4 text-saffron-600 border-gray-300 focus:ring-saffron-500 focus:ring-2"
                   />
                   <span className="ml-3 flex items-center space-x-2 text-sm text-gray-700 group-hover:text-gray-900 transition-colors duration-150">
                     <span>{option.icon}</span>
@@ -143,7 +143,7 @@ export default function FilterPanel({ onFiltersChange, currentFilters, className
             <select
               value={currentFilters.location}
               onChange={(e) => handleLocationChange(e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-orange-500 focus:border-orange-500 text-sm"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-saffron-500 focus:border-saffron-500 text-sm"
             >
               <option value="">All Locations</option>
               {availableLocations.map((location) => (
@@ -164,7 +164,7 @@ export default function FilterPanel({ onFiltersChange, currentFilters, className
                     type="checkbox"
                     checked={currentFilters.facilities.includes(facility)}
                     onChange={() => handleFacilityToggle(facility)}
-                    className="w-4 h-4 text-orange-600 border-gray-300 rounded focus:ring-orange-500 focus:ring-2"
+                    className="w-4 h-4 text-saffron-600 border-gray-300 rounded focus:ring-saffron-500 focus:ring-2"
                   />
                   <span className="ml-3 text-sm text-gray-700 group-hover:text-gray-900 transition-colors duration-150">
                     {facility}

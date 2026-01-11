@@ -58,7 +58,7 @@ export default function SiteDetailCard({ site, isOpen, onClose }: SiteDetailCard
 
   const getSiteTypeColor = (type: 'temple' | 'gurdwara') => {
     return type === 'temple' 
-      ? 'bg-orange-100 text-orange-800 border-orange-200' 
+      ? 'bg-saffron-100 text-saffron-800 border-saffron-200' 
       : 'bg-blue-100 text-blue-800 border-blue-200';
   };
 
@@ -82,7 +82,7 @@ export default function SiteDetailCard({ site, isOpen, onClose }: SiteDetailCard
           className="relative bg-white rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-hidden"
         >
           {/* Header */}
-          <div className="bg-gradient-to-r from-orange-50 to-blue-50 px-6 py-4 border-b border-gray-200">
+          <div className="bg-gradient-to-r from-saffron-50 to-spiritual-blue-light px-6 py-4 border-b border-gray-200">
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-3">
                 <span className="text-3xl">{getSiteTypeIcon(site.type)}</span>
@@ -277,7 +277,7 @@ export default function SiteDetailCard({ site, isOpen, onClose }: SiteDetailCard
               </p>
               <button
                 onClick={onClose}
-                className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2 rounded-md transition-colors duration-200 font-medium"
+                className="bg-saffron-600 hover:bg-saffron-700 text-white px-6 py-2 rounded-md transition-colors duration-200 font-medium"
               >
                 Close
               </button>
